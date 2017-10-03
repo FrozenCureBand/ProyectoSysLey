@@ -1,0 +1,7 @@
+# Que hacemos?
+Este codigo funciona con un manejo de los objetos de leyes en una lista
+Esto me causo conflicto porque en las instrucciones dice que al devolverse una ley esta debe ser la 
+ultima a ser prestada en siguientes ocaciones(el funcionamiento de un pila) pero si manejaba las leyes
+con una pila los usuarios no podian determinar que ley deseaban, siempre iban a obtener la ley que se 
+hubiera agregado de ultimo.
+Te digo esto para saber que penses en eso y decidamos como hacerle porque yo estoy perdido en eso
