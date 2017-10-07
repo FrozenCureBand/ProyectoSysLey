@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="498.0" text="Usuarios" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UsersController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/SysLeyLogo.png" />
+               </image>
+            </ImageView>
+            <ComboBox fx:id="cbusers" layoutX="30.0" layoutY="148.0" onAction="#SelectedUser" prefWidth="150.0" />
+            <Label layoutX="30.0" layoutY="114.0" text="Usuario">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="259.0" layoutY="114.0" text="Nombre">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="DisplayUserName" layoutX="259.0" layoutY="148.0" prefHeight="26.0" prefWidth="203.0" textFill="#066aff">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="257.0" layoutY="187.0" text="Apellido">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="DisplayUserLastName" layoutX="259.0" layoutY="225.0" prefHeight="26.0" prefWidth="203.0" textFill="#066aff">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="257.0" layoutY="263.0" text="A. Nacimiento">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="DisplayUserBirth" layoutX="257.0" layoutY="304.0" prefHeight="26.0" prefWidth="203.0" textFill="#066aff">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="205.0" />
+            <Button fx:id="ModifyUser" layoutX="31.0" layoutY="355.0" mnemonicParsing="false" text="Modificar">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="KillUser" layoutX="30.0" layoutY="410.0" mnemonicParsing="false" text="Eliminar" textFill="#d31d1d">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="30.0" layoutY="187.0" text="Partido Politico">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="DisplayUserPP" layoutX="30.0" layoutY="225.0" prefHeight="26.0" prefWidth="203.0" textFill="#066aff">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="263.0" text="Parlamento">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="DisplayUserBirth1" layoutX="22.0" layoutY="304.0" prefHeight="26.0" prefWidth="203.0" textFill="#066aff">
+               <font>
+                  <Font name="Russo One" size="20.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+  </content>
+</TitledPane>
