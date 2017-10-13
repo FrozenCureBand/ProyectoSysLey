@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="291.0" prefWidth="300.0" text="Devolucion" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Seleccione el tipo de devolucion que desea hacer:" />
+            <Button fx:id="btnDevolucionUni" layoutX="51.0" layoutY="53.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="197.0" text="Devolucion Unica" />
+            <Button fx:id="btnDevolucionLote" layoutX="51.0" layoutY="93.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="197.0" text="Devolucion de Lote" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
+
+
