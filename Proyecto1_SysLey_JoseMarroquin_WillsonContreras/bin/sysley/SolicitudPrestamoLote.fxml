@@ -1,0 +1,20 @@
+<<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="219.0" prefWidth="234.0" text="SolicitudPrestamoLote" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="33.0" layoutY="23.0" text="Ingrese el Id de la Ley" />
+            <TextField fx:id="txtPresIdLey" layoutX="32.0" layoutY="40.0" />
+            <Button fx:id="btnGenerarSolicitud" layoutX="32.0" layoutY="100.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="108.0" text="Generar" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
+
+

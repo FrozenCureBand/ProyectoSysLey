@@ -1,0 +1,39 @@
+<<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="731.0" text="infoUsuario" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="lblUs" layoutX="14.0" layoutY="14.0" text="Usuario" />
+            <Label fx:id="lblUsNom" layoutX="14.0" layoutY="31.0" text="Nombre" />
+            <Label fx:id="lblUsAp" layoutX="77.0" layoutY="31.0" text="Apellido" />
+            <Label fx:id="lblUsA" layoutX="149.0" layoutY="31.0" text="Año" />
+            <Label fx:id="lblUsPP" layoutX="198.0" layoutY="31.0" text="Partido" />
+            <Label fx:id="lblUsPar" layoutX="261.0" layoutY="31.0" text="Parlamento" />
+            <Label fx:id="lblUsTag" layoutX="337.0" layoutY="31.0" text="Tag" />
+            <Label fx:id="lblLey" layoutX="23.0" layoutY="72.0" text="Ley" />
+            <Label fx:id="lblLeyNom" layoutX="24.0" layoutY="89.0" text="Nombre" />
+            <Label fx:id="lblLeyId" layoutX="107.0" layoutY="89.0" text="Identificador" />
+            <Label fx:id="lblReg" layoutX="23.0" layoutY="126.0" text="Reglamento" />
+            <Label fx:id="lblRegNom" layoutX="24.0" layoutY="143.0" text="Nombre" />
+            <Label fx:id="lblRegId" layoutX="107.0" layoutY="143.0" text="Identificador" />
+            <Label fx:id="lblLote" layoutX="422.0" layoutY="72.0" text="Lote" />
+            <Label fx:id="lblLeyLote" layoutX="422.0" layoutY="91.0" text="Ley" />
+            <Label fx:id="lblLoteLeyNom" layoutX="423.0" layoutY="108.0" text="Nombre" />
+            <Label fx:id="lblLoteLeyId" layoutX="506.0" layoutY="108.0" text="Identificador" />
+            <Label fx:id="lblLoteReg" layoutX="422.0" layoutY="145.0" text="Reglamento" />
+            <Button fx:id="btnPrestamo" layoutX="32.0" layoutY="302.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" text="Prestamo" />
+            <Button fx:id="btnDevolucion" layoutX="198.0" layoutY="302.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="124.0" text="Devolucion" />
+            <Button fx:id="btnMod" layoutX="357.0" layoutY="302.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="126.0" text="Modificar" />
+            <ListView fx:id="listaReglamentosUs" layoutX="420.0" layoutY="160.0" prefHeight="66.0" prefWidth="293.0" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="199.0" prefWidth="328.0" text="PrestamoLote" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="btnGenLoteSoli" layoutX="88.0" layoutY="47.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="146.0" text="Generar Solicitud" />
+            <Button fx:id="btnVerLoteSoli" layoutX="87.0" layoutY="87.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="147.0" text="Ver Estado de Solicitud" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
+
+
