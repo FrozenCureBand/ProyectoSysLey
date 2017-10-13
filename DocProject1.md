@@ -44,12 +44,6 @@ Scanner sc = new Scanner(System.in);
 		if(us1.getLeyLote() != null) {
 			System.out.println(us1.getLeyLote().toString());
 		}
-		
-		for(int i = 0; i < 10; i++) {
-			if(us1.reglamentosLote.first() != null) {
-				System.out.println(us1.reglamentosLote.dequeue().toString());
-			}
-		}
 		obj.devolucionLotes(us1);
 		obj.crearSolicitudLey(1476, us1, 102);
 		obj.crearSolicitudReglamento(2865, us1, 103);
